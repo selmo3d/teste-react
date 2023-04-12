@@ -1,4 +1,5 @@
-const Pokemon = ({name = "padrao default, sem pokemon"}) => {  
+
+const Pokemon = ({name = "padrao default"}) => {  
     return <h2>Nome do pokemon: {name}</h2> 
 }
 
